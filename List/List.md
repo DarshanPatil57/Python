@@ -1,25 +1,8 @@
-if we try to assign value thriugh slicing in list thrn string will br treatd alike an array 
-example
- users = ["ElonMusk" , "Sam Altman" , "Harkirat Singh" , "Hitesh Choudhary"]
- users[1:2] = "Piyush Garg"
- users #['ElonMusk', 'P', 'i', 'y', 'u', 's', 'h', ' ', 'G', 'a', 'r', 'g', 'Harkirat Singh', 'Hitesh Choudhary'] - output 
-
- but if we need full then we need to pass it like an array 
-
-
- <!--  -->
- user_copy = users //refernce in the memory will go to user_copy , but we dont need same refercne we need new copy so in pyhton we can use copy() - different references
-
- //list comperiencion
-squared_num = [x**2 for x in range(10)]
-squared_num
-[0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
-
-// give info about range 
 
 # Python Lists - Complete Guide
 
 Lists are one of the most versatile and commonly used data structures in Python. They store ordered collections of items that can be of any data type.
+List are mutable.
 
 ## Creating Lists
 
